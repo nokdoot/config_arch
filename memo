@@ -27,7 +27,7 @@ sudo pacman -S extra/linux52-virtualbox-guest-modules extra/linux52-virtualbox-h
 sudo mhwd --remove pci video-linux
 sudo mhwd --install pci video-vesa
 
-sudo pacman -S audacious
+sudo pacman -S clementine
 
 sudo pacman -S extra/noto-fonts extra/noto-fonts-cjk extra/noto-fonts-emoji
 

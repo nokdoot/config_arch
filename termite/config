@@ -64,7 +64,9 @@ color2 = #7E807E
 color3 = #f7ca88
 color4 = #7cafc2
 color5 = #ba8baf
-color6 = #1ABB9B
+
+# #1ABB9B
+color6 = #b0d1ca
 color7 = #d8d8d8
 color8 = #585858
 color9 = #ab4642
