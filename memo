@@ -55,3 +55,8 @@ mariadb 실행해서 디비 생성 시작
 # uid, gid 는 각각 'id -u' 'id -g' 명령어로 알 수 있다.
 /dev/sdb1				  /mnt/hdd1	 ntfs-3g uid=1000,gid=1000    0       0
 /dev/sdc1				  /mnt/hdd2	 ntfs-3g uid=1000,gid=1000    0       0
+
+# 윈도우와 듀얼부팅 시 마운트 된 하드가 read-only 모드로 돌아간 경우.
+sudo umount /dev/장치
+sudo ntfsfix /dev/장치
+sudo ntfs-3g /dev/장치 경로
