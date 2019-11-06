@@ -60,3 +60,7 @@ mariadb 실행해서 디비 생성 시작
 sudo umount /dev/장치
 sudo ntfsfix /dev/장치
 sudo ntfs-3g /dev/장치 경로
+
+# 터미널에서 중복되는 명령어 합치기
+# ~/.bashrc
+export HISTCONTROL="ignoredups"
