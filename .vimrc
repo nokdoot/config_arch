@@ -57,6 +57,16 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " 한 줄 삭제
 inoremap <c-d> <esc>dd
 
+" 보완필요 - 파일 시작과 끝부분에서 애매하게 동작
+" 행 위, 아래로 이동
+nnoremap <c-s-k> ddkP
+nnoremap <c-s-j> ddp
+
+" increase indents for inner block
+nnoremap <leader>ib >i{
+" decrease indents for inner block
+nnoremap <leader>db <i{
+
 " 라인번호 토글링
 nnoremap <F5> :set number!<CR>
 
