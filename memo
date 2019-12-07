@@ -64,3 +64,6 @@ sudo ntfs-3g /dev/장치 경로
 # 터미널에서 중복되는 명령어 합치기
 # ~/.bashrc
 export HISTCONTROL="ignoredups"
+
+# i3
+# i3 폴더말고 config_... 에 있는 config 를 사용하자.
